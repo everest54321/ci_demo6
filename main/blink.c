@@ -37,5 +37,6 @@ void app_main(void)
 	printf("Turning on the LED\n");
         gpio_set_level(BLINK_GPIO, 1);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
+	printf("don't forget the ;\n")
     }
 }
